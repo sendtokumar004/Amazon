@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58959" started-at="2018-12-10T20:50:36Z" finished-at="2018-12-10T20:51:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58959" started-at="2018-12-10T20:50:36Z" finished-at="2018-12-10T20:51:35Z">
+      <class name="com.amazonTesting.Testcases">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.amazonTesting.Testcases@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="35751" started-at="2018-12-10T20:50:36Z" finished-at="2018-12-10T20:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="homepage()[pri:1, instance:com.amazonTesting.Testcases@59fa1d9b]" name="homepage" duration-ms="1573" started-at="2018-12-10T20:51:12Z" finished-at="2018-12-10T20:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazonTesting.Testcases@59fa1d9b]" name="tearDown" is-config="true" duration-ms="42" started-at="2018-12-10T20:51:13Z" finished-at="2018-12-10T20:51:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homepage status=SUCCESS method=Testcases.homepage()[pri:1, instance:com.amazonTesting.Testcases@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:com.amazonTesting.Testcases@59fa1d9b]" name="Login" duration-ms="13521" started-at="2018-12-10T20:51:13Z" finished-at="2018-12-10T20:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazonTesting.Testcases@59fa1d9b]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-10T20:51:27Z" finished-at="2018-12-10T20:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Testcases.Login()[pri:2, instance:com.amazonTesting.Testcases@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="username()[pri:3, instance:com.amazonTesting.Testcases@59fa1d9b]" name="username" duration-ms="1471" started-at="2018-12-10T20:51:27Z" finished-at="2018-12-10T20:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazonTesting.Testcases@59fa1d9b]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-10T20:51:28Z" finished-at="2018-12-10T20:51:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=username status=SUCCESS method=Testcases.username()[pri:3, instance:com.amazonTesting.Testcases@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="pass()[pri:4, instance:com.amazonTesting.Testcases@59fa1d9b]" name="pass" duration-ms="1984" started-at="2018-12-10T20:51:28Z" finished-at="2018-12-10T20:51:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Amazon Sign In]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Amazon Sign In]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.amazonTesting.Testcases.pass(Testcases.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazonTesting.Testcases@59fa1d9b]" name="tearDown" is-config="true" duration-ms="596" started-at="2018-12-10T20:51:30Z" finished-at="2018-12-10T20:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pass status=FAILURE method=Testcases.pass()[pri:4, instance:com.amazonTesting.Testcases@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="last()[pri:0, instance:com.amazonTesting.Testcases@59fa1d9b]" name="last" is-config="true" duration-ms="3900" started-at="2018-12-10T20:51:31Z" finished-at="2018-12-10T20:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+      </class> <!-- com.amazonTesting.Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
